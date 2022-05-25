@@ -20,7 +20,15 @@ public class door : MonoBehaviour
     IEnumerator MiCorutina()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Level"+ level);
+        if(level == 0)
+        {
+            SceneManager.LoadScene("Menu");
+        }
+        else
+        {
+            SceneManager.LoadScene("Level" + level);
+        }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
