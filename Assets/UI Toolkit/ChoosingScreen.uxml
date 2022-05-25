@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/ChoosingScreen.uss?fileID=7433441132597879392&amp;guid=a6556a1265134cf47910a7c4a9428fdc&amp;type=3#ChoosingScreen" />
+    <ui:VisualElement style="width: 100%; height: 100%; justify-content: center; align-items: center; background-color: rgb(48, 48, 48); background-image: none;">
+        <ui:VisualElement style="width: 90%; height: 70%; background-color: rgb(253, 247, 230); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; justify-content: center; align-items: center;">
+            <ui:VisualElement style="flex-direction: row; width: 95%; height: 70%;">
+                <ui:Button display-tooltip-when-elided="true" name="Fresa" class="buttons buttonChooseStyles">
+                    <ui:VisualElement class="imagenBoton" style="background-image: url(&apos;project://database/Assets/Fresa.png?fileID=2800000&amp;guid=d144fcd39e621bd4c9a166c4f8e6e277&amp;type=3#Fresa&apos;); width: 75%; height: 80%;" />
+                </ui:Button>
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="Pera" class="buttonChooseStyles">
+                    <ui:VisualElement class="imagenBoton" style="background-image: url(&apos;project://database/Assets/PeritaImagen.png?fileID=2800000&amp;guid=1c264477f260fe14b9acc11e05859c6b&amp;type=3#PeritaImagen&apos;); width: 70%;" />
+                </ui:Button>
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="Limon" class="buttonChooseStyles">
+                    <ui:VisualElement class="imagenBoton" style="background-image: url(&apos;project://database/Assets/limoncitoImagen.png?fileID=2800000&amp;guid=5c1dbf5cd8b84eb4e9f78dad7e764285&amp;type=3#limoncitoImagen&apos;); height: 70%; width: 90%; margin-top: 15%;" />
+                </ui:Button>
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="Banano" class="buttonChooseStyles">
+                    <ui:VisualElement class="imagenBoton" style="background-image: url(&apos;project://database/Assets/ImagenBanano.png?fileID=2800000&amp;guid=2f60d4a1a0b9a8d4d95b1660ec36e988&amp;type=3#ImagenBanano&apos;); width: 60%;" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

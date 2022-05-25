@@ -1,0 +1,28 @@
+.buttonChooseStyles {
+    width: 24%;
+    background-color: rgb(216, 235, 250);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonChooseStyles:hover {
+    cursor: initial;
+    background-color: rgb(112, 192, 255);
+}
+
+.imagenBoton {
+    width: 80%;
+    height: 80%;
+    background-image: url('project://database/Assets/Fresita.png?fileID=2800000&guid=678be32a22922bb44aa297a5fd11756c&type=3#Fresita');
+}
+
+.imagenBoton:hover {
+    width: 80%;
+    height: 80%;
+    background-image: url('project://database/Assets/Fresita.png?fileID=2800000&guid=678be32a22922bb44aa297a5fd11756c&type=3#Fresita');
+    cursor: initial;
+}

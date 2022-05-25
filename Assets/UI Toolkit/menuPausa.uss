@@ -1,0 +1,4 @@
+.botonPausa {
+    height: 20%;
+    margin-top: 45px;
+}

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="width: 100%; height: 100%; background-color: rgb(255, 255, 255); border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; align-items: center;">
+        <ui:Label text="Elija un nivel" display-tooltip-when-elided="true" style="color: rgb(0, 0, 0); font-size: 80px; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;); margin-top: 2%;" />
+        <ui:VisualElement style="width: 90%; height: 80%; justify-content: center; align-items: center;">
+            <ui:VisualElement style="width: 100%; height: 40%; justify-content: flex-start; align-items: center; flex-direction: row;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="level1" style="width: 23%; height: 70%; align-items: stretch; background-image: url(&apos;project://database/Assets/Level1.png?fileID=2800000&amp;guid=f740ebde4c254184f898013b89cfb1ba&amp;type=3#Level1&apos;); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="level2" style="width: 23%; height: 70%; align-items: stretch; background-image: url(&apos;project://database/Assets/level2.png?fileID=2800000&amp;guid=aaf594b5a9dc9ff469020aaa891f4b85&amp;type=3#level2&apos;); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-left: 1%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 100%; height: 40%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
