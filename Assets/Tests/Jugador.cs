@@ -9,7 +9,7 @@ namespace Test.Jugador {
 
     public class Jugador
     {
-        //Definición de las referencias para la prueba
+        //Definiciï¿½n de las referencias para la prueba
         #region FIELDS
 
         private GameObject jugador;
